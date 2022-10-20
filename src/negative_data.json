@@ -1,0 +1,25 @@
+{
+  "wrong_data": [
+    {
+      "name": "Carlos Yordan",
+      "email": "invalid email",
+      "mobile": "+5352344556",
+      "linkedin": "https://www.linkedin.com/in/carlos-yordan-gonz%C3%A1lez-306b72165/",
+      "message": "I want to apply"
+    },
+    {
+      "name": "",
+      "email": "cyordangh@gmail.com",
+      "mobile": "+5352344556",
+      "linkedin": "https://www.linkedin.com/in/carlos-yordan-gonz%C3%A1lez-306b72165/",
+      "message": "I want to apply"
+    },
+    {
+      "name": "Carlos Yordan",
+      "email": "cyordangh@gmail.com",
+      "mobile": "fffff",
+      "linkedin": "https://www.linkedin.com/in/carlos-yordan-gonz%C3%A1lez-306b72165/",
+      "message": "I want to apply"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "wrong_emails": [
+    {
+      "email": "carlos"
+    },
+    {
+      "email": "@"
+    },
+    {
+      "email": "carlos.yordan"
+    },
+    {
+      "email": "gmail.com"
+    },
+    {
+      "email": 123654
+    }
+
+  ]
+}

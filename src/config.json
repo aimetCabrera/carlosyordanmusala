@@ -1,0 +1,5 @@
+# Select browser giving to browser variable the following values Chrome or Firefox
+{
+      "browser": "Chrome",
+      "implicit_wait": 10
+}
