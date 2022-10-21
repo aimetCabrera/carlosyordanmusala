@@ -6,7 +6,7 @@ import cv2
 import HtmlTestRunner
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
-from configTest import browser
+from src.configTest import browser
 
 
 class TestCase(unittest.TestCase):
@@ -14,6 +14,7 @@ class TestCase(unittest.TestCase):
         self.driver = browser.__class__
         self.driver.maximize_window()
         time.sleep(1)
+
 
     def test_case_1(self):
         with open("emails.json") as json_file:
@@ -48,7 +49,6 @@ class TestCase(unittest.TestCase):
                 self.assertEqual(error_msg.text, "The e-mail address entered is invalid.")
                 self._case_2_test()
                 self._case_3_test()
-                self._joinus_page_test()
                 self._case_4_test()
 
     def _case_2_test(self):
